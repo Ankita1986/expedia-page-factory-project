@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Search Flights</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Search Flights</h1>
+<p>
+  Test duration: 30.868s
+</p>
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">uk.co.expedia.testsuite.FlightsTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  verifySearchFlight
+      </td>
+  <td class="duration">
+    3.589s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on flights tab : [[ChromeDriver: chrome on WINDOWS (3dd086a4a6cc0826eb37b4e02948391a)] -> xpath: //button[@id='tab-flight-tab-hp']//span[@class='uitk-icon uitk-icon-flights']]<br>
+                                Entering flying from : London (LHR-Heathrow) On flying from field : [[ChromeDriver: chrome on WINDOWS (3dd086a4a6cc0826eb37b4e02948391a)] -> id: flight-origin-hp-flight]<br>
+                                Entering going to : Mumbai (BOM-Chhatrapati Shivaji Intl.) On going to field : [[ChromeDriver: chrome on WINDOWS (3dd086a4a6cc0826eb37b4e02948391a)] -> id: flight-destination-hp-flight]<br>
+                                Entering departing date : 25/04/2020 On departing date field : [[ChromeDriver: chrome on WINDOWS (3dd086a4a6cc0826eb37b4e02948391a)] -> id: flight-departing-hp-flight]<br>
+                                Entering returning date : 23/05/2020 On returning date field : [[ChromeDriver: chrome on WINDOWS (3dd086a4a6cc0826eb37b4e02948391a)] -> id: flight-returning-hp-flight]<br>
+                                Clicking on search button : [[ChromeDriver: chrome on WINDOWS (3dd086a4a6cc0826eb37b4e02948391a)] -> xpath: //*[@id="gcw-flights-form-hp-flight"]/div[9]/label/button]<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\ajkas\IdeaProjects\expedia-page-factory-project/target/surefire-reports/html/verifySearchFlightMon_Apr_20_00_51_49_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\ajkas\IdeaProjects\expedia-page-factory-project/target/surefire-reports/html/verifySearchFlightMon_Apr_20_00_51_49_BST_2020.jpg><img src=C:\Users\ajkas\IdeaProjects\expedia-page-factory-project/target/surefire-reports/html/verifySearchFlightMon_Apr_20_00_51_49_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; class=&quot;btn-primary btn-action gcw-submit&quot;&gt;...&lt;/button&gt; is not clickable at point (267, 675). Other element would receive the click: &lt;div id=&quot;mad-client-gdpr-consent-banner&quot; class=&quot;banner-v3&quot;&gt;...&lt;/div&gt;<br/>
+&nbsp; (Session info: chrome=80.0.3987.163)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;LAPTOP-QHQ0BOBD&apos;, ip: &apos;192.168.0.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ajkas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57321}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 3dd086a4a6cc0826eb37b4e02948391a</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)<br />
+              com.sun.proxy.$Proxy8.click(Unknown Source)<br />
+              uk.co.expedia.utility.Utility.clickOnElement(Utility.java:46)<br />
+              uk.co.expedia.pages.FlightsPage.clickOnSearchButton(FlightsPage.java:68)<br />
+              uk.co.expedia.testsuite.FlightsTest.verifySearchFlight(FlightsTest.java:34)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  verifySearchFlightIsNotAvailable
+      </td>
+  <td class="duration">
+    3.471s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Clicking on flights tab : [[ChromeDriver: chrome on WINDOWS (7a2ff941a2371b446c679963bd7f95b9)] -> xpath: //button[@id='tab-flight-tab-hp']//span[@class='uitk-icon uitk-icon-flights']]<br>
+                                Entering flying from : London (LHR-Heathrow) On flying from field : [[ChromeDriver: chrome on WINDOWS (7a2ff941a2371b446c679963bd7f95b9)] -> id: flight-origin-hp-flight]<br>
+                                Entering going to : Mumbai (BOM-Chhatrapati Shivaji Intl.) On going to field : [[ChromeDriver: chrome on WINDOWS (7a2ff941a2371b446c679963bd7f95b9)] -> id: flight-destination-hp-flight]<br>
+                                Entering departing date : 25/04/2020 On departing date field : [[ChromeDriver: chrome on WINDOWS (7a2ff941a2371b446c679963bd7f95b9)] -> id: flight-departing-hp-flight]<br>
+                                Entering returning date : 23/05/2020 On returning date field : [[ChromeDriver: chrome on WINDOWS (7a2ff941a2371b446c679963bd7f95b9)] -> id: flight-returning-hp-flight]<br>
+                                Clicking on search button : [[ChromeDriver: chrome on WINDOWS (7a2ff941a2371b446c679963bd7f95b9)] -> xpath: //*[@id="gcw-flights-form-hp-flight"]/div[9]/label/button]<br>
+                                Click to see screenshot
+                                <a target = "_blank" href=C:\Users\ajkas\IdeaProjects\expedia-page-factory-project/target/surefire-reports/html/verifySearchFlightIsNotAvailableMon_Apr_20_00_52_05_BST_2020.jpg>Screenshot</a>
+                                <br>
+                                <br>
+                                <a target = "_blank" href=C:\Users\ajkas\IdeaProjects\expedia-page-factory-project/target/surefire-reports/html/verifySearchFlightIsNotAvailableMon_Apr_20_00_52_05_BST_2020.jpg><img src=C:\Users\ajkas\IdeaProjects\expedia-page-factory-project/target/surefire-reports/html/verifySearchFlightIsNotAvailableMon_Apr_20_00_52_05_BST_2020.jpg height=200 width=200></img></a>
+                  </div>
+    
+
+        <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; class=&quot;btn-primary btn-action gcw-submit&quot;&gt;...&lt;/button&gt; is not clickable at point (267, 675). Other element would receive the click: &lt;div id=&quot;mad-client-gdpr-consent-banner&quot; class=&quot;banner-v3&quot;&gt;...&lt;/div&gt;<br/>
+&nbsp; (Session info: chrome=80.0.3987.163)<br/>
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;<br/>
+System info: host: &apos;LAPTOP-QHQ0BOBD&apos;, ip: &apos;192.168.0.36&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: org.openqa.selenium.chrome.ChromeDriver<br/>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.163, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\ajkas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}<br/>
+Session ID: 7a2ff941a2371b446c679963bd7f95b9</b></a><br />
+    <div class="stackTrace" id="exception-1">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)<br />
+              org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)<br />
+              org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)<br />
+              org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)<br />
+              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)<br />
+              org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)<br />
+              com.sun.proxy.$Proxy8.click(Unknown Source)<br />
+              uk.co.expedia.utility.Utility.clickOnElement(Utility.java:46)<br />
+              uk.co.expedia.pages.FlightsPage.clickOnSearchButton(FlightsPage.java:68)<br />
+              uk.co.expedia.testsuite.FlightsTest.verifySearchFlightIsNotAvailable(FlightsTest.java:45)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:583)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:648)<br />
+              org.testng.TestRunner.run(TestRunner.java:505)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:455)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:364)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1137)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1049)<br />
+              org.testng.TestNG.run(TestNG.java:1017)<br />
+              com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)<br />
+              com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:110)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+
+  
+</body>
+</html>
